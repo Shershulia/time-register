@@ -15,13 +15,22 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+table{
+  width: 70%;
+}
+th{
+  width: 120px;
+  padding: 0.75rem;
+  height: 50px;
+}
+th:nth-child(1) {
+    width: 1rem;
+}
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  /*background-image: linear-gradient(to bottom, #ecee81, #8de9a4, #2cd9d2, #3bbfe8, #82a0d8);*/
+  background-color: #FFEFD5;
+}
+.gradient{
+  background-image: linear-gradient(to bottom, #ecee81, #8de9a4, #2cd9d2, #3bbfe8, #82a0d8);
 }
